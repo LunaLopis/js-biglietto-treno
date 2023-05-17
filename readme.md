@@ -8,6 +8,6 @@ va applicato uno sconto del 40% per gli over 65.
 2. let-prompt per le domande su età e km da percorrere convertiti in numeri (parseInt).
 3. verifico che siano numeri.
 4. calcolo prezzo in base ai km inseriti dall'utente (distance).
-3. if per applicare lo sconto minorenne.
-4. if per sconto over 65.
-5. 
+3. condizione age<18 anni per sconto 20%.
+4. condizione age>65 per sconto over 40%.
+5. prezzo km - sconto age
